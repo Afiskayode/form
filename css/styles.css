@@ -1,0 +1,59 @@
+body{
+	background-color: goldenrod;
+	display: flex;
+	justify-content:center;
+	min-height: 100vh;
+	align-items: center;
+	font-family: 'Outfit', sans-serif;
+}
+
+.card{
+	width: 320px;
+	background-color: ghostwhite;
+	padding: 16px;
+	border-radius: 15px;
+	box-shadow: 8px 3px 15px rgb(0 0 0 / 20%);
+	text-align: center;
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+form{
+	 display: block;
+}
+
+input{
+	width: 80%;
+	padding: 12px 15px 12px 8px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 8px;
+	border: 2px solid #ccc;
+	outline: none;
+}
+input:focus{
+    border: 2px solid black;
+}
+
+button{
+	margin: 20px 0 15px 0;
+	width: 77%;
+	height: 33px;
+	font-size: 1.4vw;
+	border-radius: 10px;
+	border: 2px solid #ccc;
+}
+button:hover{
+	border: 2px solid black;
+}
+
+.lost{
+	padding-left: 100px;
+
+}
+h1{
+	padding: 10px 0 10px;
+}
