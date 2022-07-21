@@ -42,7 +42,7 @@ button{
 	margin: 20px 0 15px 0;
 	width: 77%;
 	height: 33px;
-	font-size: 1.4vw;
+	font-size: 120%;
 	border-radius: 10px;
 	border: 2px solid #ccc;
 }
@@ -51,7 +51,7 @@ button:hover{
 }
 
 .lost{
-	padding-left: 100px;
+	padding-left: 35%;
 
 }
 h1{
